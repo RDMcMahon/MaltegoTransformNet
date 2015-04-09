@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaltegoTransformNet.Cmd", "MaltegoTransformNet.Cmd\MaltegoTransformNet.Cmd.csproj", "{9171F6EB-70A8-44F4-B7A7-B82CF058A135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaltegoTransformNet.Core", "MaltegoTransformNet.Core\MaltegoTransformNet.Core.csproj", "{1A6296C9-5648-4030-8F68-8A1CD2AEA99E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6296C9-5648-4030-8F68-8A1CD2AEA99E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A6296C9-5648-4030-8F68-8A1CD2AEA99E}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A6296C9-5648-4030-8F68-8A1CD2AEA99E}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A6296C9-5648-4030-8F68-8A1CD2AEA99E}.Release|x86.Build.0 = Release|Any CPU
+		{9171F6EB-70A8-44F4-B7A7-B82CF058A135}.Debug|x86.ActiveCfg = Debug|x86
+		{9171F6EB-70A8-44F4-B7A7-B82CF058A135}.Debug|x86.Build.0 = Debug|x86
+		{9171F6EB-70A8-44F4-B7A7-B82CF058A135}.Release|x86.ActiveCfg = Release|x86
+		{9171F6EB-70A8-44F4-B7A7-B82CF058A135}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MaltegoTransformNet.Cmd\MaltegoTransformNet.Cmd.csproj
+	EndGlobalSection
+EndGlobal

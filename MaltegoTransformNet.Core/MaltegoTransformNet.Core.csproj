@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A6296C9-5648-4030-8F68-8A1CD2AEA99E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MaltegoTransformNet.Core</RootNamespace>
+    <AssemblyName>MaltegoTransformNet.Core</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="MaltegoResponseGenerator.cs" />
+    <Compile Include="ResponseGeneratorCore\Entity.cs" />
+    <Compile Include="ResponseGeneratorCore\Field.cs" />
+    <Compile Include="ResponseGeneratorCore\MaltegoException.cs" />
+    <Compile Include="ResponseGeneratorCore\MaltegoMessage.cs" />
+    <Compile Include="ResponseGeneratorCore\IconURL.cs" />
+    <Compile Include="ResponseGeneratorCore\MaltegoTransformExceptionMessage.cs" />
+    <Compile Include="ResponseGeneratorCore\MaltegoTransformResponseMessage.cs" />
+    <Compile Include="ResponseGeneratorCore\UIMessage.cs" />
+    <Compile Include="Enums\EntityEnum.cs" />
+    <Compile Include="Enums\AffiliationEnum.cs" />
+    <Compile Include="Enums\UIMessageType.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="ResponseGeneratorCore\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+</Project>
