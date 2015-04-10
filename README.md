@@ -3,14 +3,14 @@ A .NET library for writing Maltego Transforms
 
 # Basic Usage
 >
->using System;
->using MaltegoTransformNet.Core;
->using MaltegoTransformNet.Core.Enums;
+> using System;
+> using MaltegoTransformNet.Core;
+> using MaltegoTransformNet.Core.Enums;
 >
->namespace MaltegoTransformNet.Cmd
->{
->	class MainClass
->	{
+> namespace MaltegoTransformNet.Cmd
+> {
+>	 class MainClass
+>	 {
 >		public static void Main (string[] args)
 >		{
 >			//Parse the maltego arguments
@@ -38,6 +38,6 @@ A .NET library for writing Maltego Transforms
 >			Console.WriteLine (maltego.GetMaltegoMessageText());
 >
 >		}
->	}
-
-}
+> }
+>
+> }
